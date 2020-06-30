@@ -1,0 +1,13 @@
+
+State Machine - |sqrtmachine|cur
+Name cur.p11 cur.p10 cur.p21 cur.p20 cur.p31 cur.p30 cur.p41 cur.p40 cur.p1 cur.p0 
+cur.p0 0 0 0 0 0 0 0 0 0 0 
+cur.p1 0 0 0 0 0 0 0 0 1 1 
+cur.p40 0 0 0 0 0 0 0 1 0 1 
+cur.p41 0 0 0 0 0 0 1 0 0 1 
+cur.p30 0 0 0 0 0 1 0 0 0 1 
+cur.p31 0 0 0 0 1 0 0 0 0 1 
+cur.p20 0 0 0 1 0 0 0 0 0 1 
+cur.p21 0 0 1 0 0 0 0 0 0 1 
+cur.p10 0 1 0 0 0 0 0 0 0 1 
+cur.p11 1 0 0 0 0 0 0 0 0 1 

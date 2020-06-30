@@ -1,0 +1,43 @@
+x1=linspace(1,8,15);
+y1=[33.4,79.5,122.65,159.05,189.15,214.15,238.65,252.2,267.55,280.5,296.65,301.65,310.4,318.15,325.15];
+x2=x1;
+y2=log(y1);%第二种拟合用取对数的方式改为线性拟合
+a1=0;
+b1=0;
+c1=0;
+a2=0;
+lga2=0;
+b2=0;
+m=15;
+n=3;
+A=zeros(m,n);
+for i=1:m%计算法方程法的A
+    A(i,1)=1;
+    A(i,2)=x1(i);
+    A(i,3)=x1(i)*x1(i);
+end
+G=transpose(A)*A;
+b=transpose(A)*transpose(y1);
+tx=G\b;%解方程
+a1=tx(1,1)
+b1=tx(2,1)
+c1=tx(3,1)
+z1=a1*ones(1,m)+b1*x1+c1*(x1.*x1);
+n=2;
+A=zeros(m,n);
+for i=1:m
+    A(i,1)=1;
+    A(i,2)=x2(i);
+end
+G=transpose(A)*A;
+b=transpose(A)*transpose(y2);
+tx=G\b;
+lga2=tx(1,1);
+b2=tx(2,1)
+a2=exp(lga2)%将对数重新变成系数
+z2=a2*exp(b2*x2);
+hold on;
+plot(x1,y1);
+plot(x2,z2);
+plot(x1,z1);
+legend('original','exponential','quadratic');

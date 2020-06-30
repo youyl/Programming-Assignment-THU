@@ -1,0 +1,198 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yilin You\Desktop\DigitalExperiment\sqrtmachine\simulation\modelsim
+Ecomparator4
+Z1 w1591283571
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Yilin You\Desktop\DigitalExperiment\sqrtmachine\simulation\modelsim
+Z7 8C:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine.vhd
+Z8 FC:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine.vhd
+l0
+L50
+V9n8[eOT:oV=FCdIW]5ojz2
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1591285460.407000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine.vhd|
+Z12 !s107 C:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 LL6NnPNFdz05l7lRGR9mZ1
+!i10b 1
+Acompare
+R2
+R3
+R4
+R5
+DEx4 work 11 comparator4 0 22 9n8[eOT:oV=FCdIW]5ojz2
+l59
+L57
+VRa9fCLX]a6X?Q`M>Qnh0X2
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 R5ReVMLhi;<fY4A:K8[1?0
+!i10b 1
+Ecomparator8
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+l0
+L83
+V4TA0V7:ziedR9M9PmK6o:0
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 j9R>cWhQ`me=4nR4>mdbi2
+!i10b 1
+Acompare
+R2
+R3
+R4
+R5
+DEx4 work 11 comparator8 0 22 4TA0V7:ziedR9M9PmK6o:0
+l98
+L90
+VzJ=fCCkXP>^VoAz?Am9JE0
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 NB2OnFAQAldXg2dM^@^fH0
+!i10b 1
+Esqrtmachine
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+l0
+L112
+VU3C9Mmk8YXffFP8OLP^]k2
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 GEQ9[z^0@dX4[1=RZjo=o1
+!i10b 1
+Asqrt
+R2
+R3
+R4
+R5
+DEx4 work 11 sqrtmachine 0 22 U3C9Mmk8YXffFP8OLP^]k2
+l139
+L121
+VE4BF3Y_Q35PmN@^eQQEjY3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 ^NGL4MAmNac]EZ:zYkeC?3
+!i10b 1
+Esqrtmachine_tb
+Z15 w1591285427
+Z16 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R4
+R5
+R6
+Z17 8C:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine_tb.vhd
+Z18 FC:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine_tb.vhd
+l0
+L10
+VQiGf[YHhg6zTd[kjSdzzk1
+!s100 8XoMG4;ClNG`24:SnP;_j0
+R9
+31
+!i10b 1
+Z19 !s108 1591285460.662000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine_tb.vhd|
+Z21 !s107 C:/Users/Yilin You/Desktop/DigitalExperiment/sqrtmachine/sqrtmachine_tb.vhd|
+R13
+R14
+Abench
+R16
+R4
+R5
+DEx4 work 14 sqrtmachine_tb 0 22 QiGf[YHhg6zTd[kjSdzzk1
+l32
+L13
+V5_D82MiN^Y2;gEQC:X=::3
+!s100 8ni9V[OAiM8^AN1a[zc_Y1
+R9
+31
+!i10b 1
+R19
+R20
+R21
+R13
+R14
+Esquarer
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+l0
+L6
+VC4<MfXW2^Bz7SQAIN0XE<2
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 z113S@c0Jg1JB0=b3`OWL1
+!i10b 1
+Acompute
+R2
+R3
+R4
+R5
+DEx4 work 7 squarer 0 22 C4<MfXW2^Bz7SQAIN0XE<2
+l15
+L13
+Vl0l]]77]>T3I26jH6]E1O1
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 LJ?e4RDoMP?6PPKbHd7Vm3
+!i10b 1

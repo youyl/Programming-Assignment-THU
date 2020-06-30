@@ -1,0 +1,9 @@
+x=logspace(-16,0,100);%对应式子里的h，用等比数列生成
+invx=logspace(16,0,100);
+x1=logspace(0,0,100);%全1向量
+M=1;
+epsi=1e-16;
+res=abs(((sin(x1+x)-sin(x1))./x)-cos(x1));%实际误差
+jieduan=(M/2)*x;%截断误差
+sheru=(2*epsi)*invx;%舍入误差
+loglog(x,sheru,x,jieduan,x,res);%绘图
